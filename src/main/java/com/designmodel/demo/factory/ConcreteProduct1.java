@@ -7,7 +7,7 @@ package com.designmodel.demo.factory;
  * @author: Mr.Cui
  * @Date: 2020/8/18 22:11
  */
-public class ConcreteProduct1 implements  Product{
+public class ConcreteProduct1 implements Product {
     @Override
     public void show() {
         System.out.println("具体产品1显示...");

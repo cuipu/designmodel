@@ -9,5 +9,5 @@ package com.designmodel.demo.factory;
  */
 public interface AbstractFactory {
 
-    public Product newProduct();
+    Product newProduct();
 }

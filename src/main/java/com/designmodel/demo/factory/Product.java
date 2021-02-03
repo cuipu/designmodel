@@ -8,5 +8,5 @@ package com.designmodel.demo.factory;
  * @Date: 2020/8/18 22:10
  */
 public interface Product {
-    public void show();
+    void show();
 }
