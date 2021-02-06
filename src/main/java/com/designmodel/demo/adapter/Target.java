@@ -9,5 +9,5 @@ package com.designmodel.demo.adapter;
  */
 public interface Target {
 
-    public void request();
+    void request();
 }

@@ -1,5 +1,8 @@
 package com.designmodel.demo.strategy;
 
+import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
+import org.springframework.stereotype.Service;
+
 /**
  * @program: designmodel
  * @className: ConcreteStrategyA
@@ -7,6 +10,8 @@ package com.designmodel.demo.strategy;
  * @author: Mr.Cui
  * @Date: 2020/9/3 22:12
  */
+@Service
+@ConditionalOnProperty(prefix = "keyten",name = "isTianJin",havingValue = "true",matchIfMissing = false)
 public class ConcreteStrategyA implements Strategy{
 
     @Override

@@ -7,7 +7,8 @@ package com.designmodel.demo.factory;
  * @author: Mr.Cui
  * @Date: 2020/8/18 22:12
  */
-public interface AbstractFactory {
+public interface AbstractFactory <T> {
 
+    T getT();
     Product newProduct();
 }

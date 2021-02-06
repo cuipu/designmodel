@@ -1,5 +1,9 @@
 package com.designmodel.demo.adapter;
 
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
 /**
  * @program: designmodel
  * @className: ObjectAdapter
@@ -7,6 +11,9 @@ package com.designmodel.demo.adapter;
  * @author: Mr.Cui
  * @Date: 2020/8/17 22:14
  */
+@Data
+@NoArgsConstructor
+@Builder
 public class ObjectAdapter implements Target{
 
     private Adaptee adaptee;

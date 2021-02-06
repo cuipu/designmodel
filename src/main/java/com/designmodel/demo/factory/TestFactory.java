@@ -26,6 +26,7 @@ package com.designmodel.demo.factory;
 public class TestFactory {
     public static void main(String[] args) {
         AbstractFactory concreteFactory1 = new ConcreteFactory1();
+
         Product product1 = concreteFactory1.newProduct();
 
         AbstractFactory concreteFactory2 = new ConcreteFactory2();
