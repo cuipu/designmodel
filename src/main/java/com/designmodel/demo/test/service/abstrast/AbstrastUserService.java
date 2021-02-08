@@ -17,4 +17,6 @@ public class AbstrastUserService implements BaseInterface<User> {
     public User getT(String jsonStr) {
         return JSONObject.parseObject(jsonStr, User.class);
     }
+
+
 }

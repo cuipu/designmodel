@@ -9,4 +9,5 @@ package com.designmodel.demo.test.service;
  */
 public interface BaseInterface<T>{
     T getT(String jsonStr);
+
 }
