@@ -1,18 +1,18 @@
-package com.designmodel.demo.ChainofResponsibility;
+package com.designmodel.demo.chainofresponsibility;
 
 /**
  * @program: designmodel
- * @className: ClassAdviser
- * @Description: 具体处理者1：班主任类
+ * @className: Dean
+ * @Description: 具体处理者3：院长类
  * @author: Mr.Cui
- * @Date: 2020/9/26 22:15
+ * @Date: 2020/9/26 22:16
  */
-public class ClassAdviser extends Leader{
+public class Dean extends Leader{
     @Override
     public void handleRequest(int LeaveDays) {
-        if(LeaveDays<=2)
+        if(LeaveDays<=10)
         {
-            System.out.println("班主任批准您请假" + LeaveDays + "天。");
+            System.out.println("院长批准您请假" + LeaveDays + "天。");
         }
         else
         {

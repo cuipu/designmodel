@@ -1,4 +1,4 @@
-package com.designmodel.demo.ChainofResponsibility;
+package com.designmodel.demo.chainofresponsibility;
 
 /**
  * @program: designmodel
